@@ -1,26 +1,29 @@
 algorithle check 1
+var
 ch : string;
 numvowles ,numWords , numcar : integer;
-write(" donner votre phrase" , ch)
+begin
+write(" donner votre phrase" , ch);
 
-read (ch)
+read (ch);
 while(ch[i] < > ".")
 
 
     do
     if(ch[i]==" ")
-    numWords := numWords + 1
+    numWords := numWords + 1;
     END if
 if (ch[i] == "a") or (ch[i] == "e") or (ch[i] == "i") or c(ch[i] == "o") or (ch[i] == "u")
-numvowles := numvowles +1 
+numvowles := numvowles +1 ;
 END if
 if (ch[i] < > ".")
-numcar := numcar +1
+numcar := numcar +1;
 END if
 
-write("nombre words" , numWords)
-write("nombre vowles" , numvowles)
-write("nombre caracter" , numcar)
+write("nombre words" , numWords);
+write("nombre vowles" , numvowles);
+write("nombre caracter" , numcar);
+ end
 
 
 
@@ -51,31 +54,3 @@ write("nombre caracter" , numcar)
 
 
 
-
-def compteMots(ch):
-    "fonction qui compte le nombre de mots dans la phrase ch"
-    nbMots = 1
-    p = 0
-    while p < len(ch):  
-        while ph[p] == "":
-            nbMots = 0
-            if ch[p] != "":
-                nbMots = 1
-        p = p + 1
-    i = p
-    while i < len(ch):
-        if ch[i] == " ":
-            nbMots = nbMots + 1
-        i = i + 1
-    return nbMots
-
-    str = str.lower();  
-for i in range(0,len(str)):   
-    #Checks whether a character is a vowel  
-    if str[i] in ('a',"e","i","o","u"):  
-        vcount = vcount + 1;  
-    elif (str[i] >= 'a' and str[i] <= 'z'):  
-        ccount = ccount + 1;  
-print("Total number of vowel and consonant are" );  
-print(vcount);  
-print(ccount);  
