@@ -1,0 +1,16 @@
+algorithme tableau
+var
+tab : array of INTEGER[];
+i ,j , sum: integer;
+begin
+write("print array");
+ for i from 0 to tab.length do
+ for j form 0 to tab.length do
+if(tab[i] <> TAB[j])
+sum := sum + 1;
+end if
+ENDfor
+
+ENDfor
+write(sum);
+end
